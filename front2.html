@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer</title>
+    <link rel="stylesheet" href="frontend.css">
+</head>
+<body>
+    <h1>FRONTEND DEVELOPER 🌐</h1>
+
+    <div class="one" style="font-size: x-large;">
+        <p>
+            Front-end development (also known as client-side development) involves designing and building the graphical user interface (GUI) of a website or web application.
+            It’s all about the parts of a website that users directly interact with—the buttons they click, the forms they fill out, and the visual elements they see on their screens.
+        </p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <center>
+            <img src="frontbs.jpg" alt="Front-end development image" onclick="showAlert()">
+        </center>
+    </div>
+    <hr>
+    <div class="two">
+        <div id="one">
+            <p>To declare DOCTYPE</p>
+            <img src="html2.png" alt="DOCTYPE declaration" onclick="showAlert()">
+            <p>HTML headings</p>
+            <img src="html2.png" alt="HTML headings" onclick="showAlert()">
+            <p>Sample Input</p>
+            <img src="html1.png" alt="Sample input" onclick="showAlert()">
+            <p>Sample Output</p>
+            <img src="html.png" alt="Sample output" onclick="showAlert()">
+        </div>
+    </div>
+    <h2>For More Details Reference this link</h2>
+    <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener noreferrer">HTML</a>
+    <hr>
+    <iframe src="https://en.wikipedia.org/wiki/Front-end_web_development" width="100%" height="500" title="Front-end web development">
+        Your browser does not support iframes.
+    </iframe>
+    <hr>
+    <h2>CSS (Cascading Style Sheets)</h2>
+    <div class="three">
+        <!-- You can add more content here about CSS -->
+    </div>
+
+    <button id="bgChangeBtn">Change Background Color</button>
+
+    <script>
+        // Function to show an alert when an image is clicked
+        function showAlert() {
+            alert("You clicked an image!");
+        }
+
+        // Function to change the background color
+        document.getElementById("bgChangeBtn").addEventListener("click", function() {
+            const colors = ["green", "yellow", "lightblue", "lightcoral", "lightgreen", "lavender"];
+            document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        });
+    </script>
+</body>
+</html>

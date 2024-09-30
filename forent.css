@@ -1,0 +1,76 @@
+
+body{
+    background-image:linear-gradient(yellow, green);
+    background-repeat: repeat;
+    
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style:italic;
+   font-variant:unset;
+   font-weight: 100;
+
+}
+h1:hover{
+    color: blueviolet;
+}
+.one{
+    color:darkred;
+    text-justify: inter-cluster;
+    font-size:x-large;
+    border-width: 2px;
+    border-color: blue;
+    box-shadow: 5px;
+    border-style:dashed;
+    border-radius: ;
+   
+}
+.one:hover{
+    color: white;
+}
+
+
+img{
+    border-radius: 60px;
+}
+.two{
+    display: flex;
+    flex-wrap:wrap;
+    border-image: round;
+    align-self: center;
+
+}
+
+#one{
+    width: 100px;
+    color:whitesmoke;
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+
+}
+h2{
+    color:rgb(57, 109, 141);
+    font-style: italic;
+    font-variant-emoji:initial;
+    text-decoration: underline overline dotted blue;
+    border:20px;
+    position: relative;
+    animation-name: fordiv;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fordiv {
+    from {color:rgb(57, 109, 141) ;}
+    to {color:yellow;} 
+}
+h2:hover{
+    color:yellowgreen;
+}
