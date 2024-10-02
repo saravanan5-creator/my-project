@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>WEB DEVELOPMENT</h1>
+    <div class="navbar-menu">
+        <i class="fa-solid fa-bars fa-bounce"></i>
+    </div>
+</nav>
+
+<div class="side-navbar" >
+   <p style="text-align: right; color:white;" >
+    <i class="fa-solid fa-xmark"></i>
+</p>
+    <div class="side-navbar-links">
+        
+        <p class="side-navbar-link"><a href="web.html">Home</a></p>
+        <p class="side-navbar-link"><a href="front.html">Front-End Development</a></p>
+        <p class="side-navbar-link"><a href="backend.html">back-end-development</a></p>
+        <p class="side-navbar-link"><a href="Abou.html">About</a></p>
+    </div>
+</div>
+<div class="search" style="padding-left: 15%;">
+</div>
+
+<center style="padding-left: 10%;">
+    <img src="image.png">
+    </center>
+    <nav>
+    <h1>FRONT-END DEVELOPMENT</h1>
+    </nav>
+    <div class="one">
+        <p style="font-size: large; font-style: italic;"> Front-end development, also known as client-side development, focuses on creating the parts of a website or web application that users interact with directly. Here are some key aspects:</p>
+        <ul>
+        <li><h1>HTML (HyperText Markup Language):</h1></li>
+        <p>The backbone of any web page, HTML provides the structure and content.</p>
+        <li><h1>CSS (Cascading Style Sheets):</h1></li>
+        <p>CSS is used to style and layout web pages, including colors, fonts, and positioning.</p>
+        <li><h1>JavaScript:</h1></li>
+        <p>This scripting language adds interactivity to web pages, such as animations, form validations, and dynamic content updates.</p>
+        </ul>
+        </div>
+        <h2 style="font-weight: bolder; padding-left: 20%;">Frameworks and Libraries:</h2>
+        <div class="two" style="padding-left: 20%;">
+            <ul>
+            <p><li><h1>React:</h1> </li><p>A JavaScript library for building user interfaces, particularly single-page applications.</p>
+              <li> <h1>Angular:</h1></li> <p>A platform and framework for building single-page client applications using HTML and TypeScript.</p>
+              <li> <h1>Vue.js:</h1></li> <p>A progressive JavaScript framework for building user interfaces.<p></p>
+            </ul>
+        </div>
+        <div class="three" style="padding-left: 20%;">
+            <h1>Tools and Practices:</h1>
+            <ul>
+                <li><h1>Version Control (e.g., Git):</h1></li> <p>Essential for tracking changes and collaborating with other developers.
+                </p>
+                <li><h1>Responsive Design:</h1></li><p>Ensuring that web applications look and function well on a variety of devices and screen sizes.</p>
+                <li><h1>Web Performance Optimization:</h1></li><p>Techniques to improve the speed and efficiency of web applications.</p>
+            </ul>
+        </div>
+<a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp#:~:text=A%20Front%2DEnd%20Developer%20is,%2DEnd%20as%20server%2Dside." style="padding-left: 12%;">Front-End developer</a>
+</body>
+</html>
+<style>
+   
+   *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navbar-links{
+    display: flex;
+    column-gap: 10px;
+}
+.navbar-link a{
+    text-decoration: none;
+    color: darkblue;
+    text-decoration: underline;
+
+}
+.navbar-menu{
+    display: none;
+}
+
+.side-navbar{
+    background-color: black;
+    color:white;
+    width: 10%;
+    height: 100%;
+    position:fixed;
+    display: block;
+
+}
+.side-navbar-link{
+    margin: 20px;
+}
+.side-navbar-link a{
+    text-decoration: underline;
+}
+.side-navbar-link a:hover{
+    color: rgb(156, 110, 51);
+}
+.one{
+    margin: 20px;
+    padding-left: 20%;
+    font-size: large;
+}
+img{
+    border-radius: 60px;
+}
+.one{
+    background-color:lightseagreen;
+    color: white;
+    display: inline-block;
+}
+.three{
+    background-color:lightblue;
+    color:black;
+}
+nav{
+    text-align: center;
+}
+nav:hover{
+    color: blue;
+
+}
+h1:hover{
+    color:blue;
+}
+@media screen and (max-width:700px){
+    .navbar-menu{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .one,.two,.three{
+        flex-direction: column;
+    }
+}
+
+</style>
